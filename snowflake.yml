@@ -1,0 +1,13 @@
+definition_version: 2
+entities:
+  sql_deploy_tool:
+    type: streamlit
+    identifier:
+      name: SQL_DEPLOY_TOOL
+      database: STREAMLIT_APPS
+      schema: PUBLIC
+    query_warehouse: COMPUTE_WH
+    main_file: streamlit_app.py
+    artifacts:
+      - streamlit_app.py
+      - requirements.txt
